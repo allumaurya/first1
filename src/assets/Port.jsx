@@ -22,7 +22,7 @@ export default function Port() {
             <div className='h-[500px] bg-black overflow-hidden   grid grid-cols-6 p-8  '>
                 <div className='col-span-4 text-white justify-items-start'>
                     <h1 className='text-[30px]  text-red-600 ms-3 cursor-pointer'>Hello I'm</h1>
-                    <h1 className='text-[70px] font-bold font-sans flex cursor-pointer' >ALOK<p className='ms-6 text-red-600'>KUSHAWAHA</p></h1>
+                    <h1 className='text-[50px] font-bold font-sans flex cursor-pointer' >ALOK<p className='ms-6 text-red-600'>KUSHAWAHA</p></h1>
                     <h1 className='text-2xl text-red-600 cursor-pointer' >
                         <TextTransition springConfig={presets.wobbly}>
                             {TEXTS[textIndex % TEXTS.length]}{" "}
