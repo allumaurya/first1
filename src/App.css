@@ -1,0 +1,52 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.im {
+  width: 400px;
+  height: 500px;
+  background-image: url(/src/assets/alok.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 150px 200px;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 70px 100px black;
+}
+.ico{ 
+  border-right: 2px solid black;
+
+
+}
+/* Slider.css */
+.slider-container {
+  position: relative;
+  width: 100%; /* Adjust based on your preference */
+  height: 400px;
+  overflow: hidden;
+
+  border-radius: 0px;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-images {
+  display: flex;
+  transition: transform 1s ease-in-out; /* Smooth sliding effect */
+}
+
+.slider-item {
+  min-width: 100%;
+  height: 100%;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
