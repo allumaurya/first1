@@ -12,9 +12,13 @@
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
     "@tailwindcss/vite": "^4.1.5",
+<<<<<<< HEAD
     "framer-motion": "^12.33.0",
     "react": "^19.0.0",
     "react-circular-progressbar": "^2.2.0",
+=======
+    "react": "^19.0.0",
+>>>>>>> bc34d38b520a66d9401de3fca9a75ce83778140c
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
     "react-responsive-carousel": "^3.2.23",

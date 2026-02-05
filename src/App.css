@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   max-width: 1400px;
   margin: 0 auto;
@@ -17,12 +18,22 @@
 .im {
   width: 400px;
   height: 500px;
+=======
+
+.im {
+  width: 300px;
+  height: 450px;
+>>>>>>> bc34d38b520a66d9401de3fca9a75ce83778140c
   background-image: url(/src/assets/alok.jpg);
   background-size: cover;
   background-position: center center;
   padding: 150px 200px;
   box-sizing: border-box;
+<<<<<<< HEAD
   box-shadow: inset 0 0 70px 80px black;
+=======
+  box-shadow: inset 0 0 70px 100px black;
+>>>>>>> bc34d38b520a66d9401de3fca9a75ce83778140c
 }
 .ico{ 
   border-right: 2px solid black;
@@ -60,6 +71,7 @@
   height: 100%;
   object-fit: cover;
 }
+<<<<<<< HEAD
 /* .skills-section {
   max-width: 500px;
   margin: auto;
@@ -111,3 +123,5 @@
   border-radius: 10px;
   transition: width 1.3s ease-in-out;
 }
+=======
+>>>>>>> bc34d38b520a66d9401de3fca9a75ce83778140c

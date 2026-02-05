@@ -5,7 +5,11 @@ import TextTransition, { presets } from "react-text-transition";
 import { CiInstagram } from "react-icons/ci";
 import { CiFacebook } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
+<<<<<<< HEAD
 const TEXTS = ["Welcome to my website!", "I'm a Developer", "I make the complex simple."];
+=======
+const TEXTS = ["Welcome to my website!", "I'm a Developer", "and a Designer."];
+>>>>>>> bc34d38b520a66d9401de3fca9a75ce83778140c
 export default function Port() {
     const [textIndex, setTextIndex] = useState(0);
     
@@ -22,7 +26,11 @@ export default function Port() {
             <div className='h-[500px] bg-black overflow-hidden   grid grid-cols-6 p-8  '>
                 <div className='col-span-4 text-white justify-items-start'>
                     <h1 className='text-[30px]  text-red-600 ms-3 cursor-pointer'>Hello I'm</h1>
+<<<<<<< HEAD
                     <h1 className='text-[70px] font-bold font-sans flex cursor-pointer' >ALOK<p className='ms-6 text-red-600'>KUSHAWAHA</p></h1>
+=======
+                    <h1 className='text-[50px] font-bold font-sans flex cursor-pointer' >ALOK<p className='ms-6 text-red-600'>KUSHAWAHA</p></h1>
+>>>>>>> bc34d38b520a66d9401de3fca9a75ce83778140c
                     <h1 className='text-2xl text-red-600 cursor-pointer' >
                         <TextTransition springConfig={presets.wobbly}>
                             {TEXTS[textIndex % TEXTS.length]}{" "}
